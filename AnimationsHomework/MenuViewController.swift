@@ -33,6 +33,12 @@ class MenuViewController: UIViewController {
     // MARK: - Functions
     
     @IBAction func cellClick(_ sender: UITapGestureRecognizer) {
+        UIView.transition(with: cellView,
+                      duration: 0.25,
+                       options: .transitionCrossDissolve,
+                    animations: { [weak self] in
+            self?.cellView.alpha = 1
+                 }, completion: nil)
         presentLampControlVC()
     }
     
