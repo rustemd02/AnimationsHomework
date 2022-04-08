@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		CF6B18BF27FF1F15005D09B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B18BE27FF1F15005D09B6 /* AppDelegate.swift */; };
 		CF6B18C127FF1F15005D09B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B18C027FF1F15005D09B6 /* SceneDelegate.swift */; };
-		CF6B18C327FF1F15005D09B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B18C227FF1F15005D09B6 /* ViewController.swift */; };
+		CF6B18C327FF1F15005D09B6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B18C227FF1F15005D09B6 /* MenuViewController.swift */; };
 		CF6B18C627FF1F15005D09B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6B18C427FF1F15005D09B6 /* Main.storyboard */; };
 		CF6B18C927FF1F15005D09B6 /* AnimationsHomework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF6B18C727FF1F15005D09B6 /* AnimationsHomework.xcdatamodeld */; };
 		CF6B18CB27FF1F17005D09B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6B18CA27FF1F17005D09B6 /* Assets.xcassets */; };
 		CF6B18CE27FF1F17005D09B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6B18CC27FF1F17005D09B6 /* LaunchScreen.storyboard */; };
+		CF6B18D627FF2369005D09B6 /* LampControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6B18D527FF2369005D09B6 /* LampControlViewController.swift */; };
+		CFB5E5DA27FF2C2E00CBA12F /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB5E5D927FF2C2E00CBA12F /* Animator.swift */; };
+		CFB5E5DC27FF2F3000CBA12F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB5E5DB27FF2F2F00CBA12F /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF6B18BB27FF1F15005D09B6 /* AnimationsHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationsHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6B18BE27FF1F15005D09B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF6B18C027FF1F15005D09B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF6B18C227FF1F15005D09B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF6B18C227FF1F15005D09B6 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CF6B18C527FF1F15005D09B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF6B18C827FF1F15005D09B6 /* AnimationsHomework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimationsHomework.xcdatamodel; sourceTree = "<group>"; };
 		CF6B18CA27FF1F17005D09B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF6B18CD27FF1F17005D09B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6B18CF27FF1F17005D09B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6B18D527FF2369005D09B6 /* LampControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampControlViewController.swift; sourceTree = "<group>"; };
+		CFB5E5D927FF2C2E00CBA12F /* Animator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		CFB5E5DB27FF2F2F00CBA12F /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,10 @@
 			children = (
 				CF6B18BE27FF1F15005D09B6 /* AppDelegate.swift */,
 				CF6B18C027FF1F15005D09B6 /* SceneDelegate.swift */,
-				CF6B18C227FF1F15005D09B6 /* ViewController.swift */,
+				CF6B18C227FF1F15005D09B6 /* MenuViewController.swift */,
+				CFB5E5DB27FF2F2F00CBA12F /* Cell.swift */,
+				CF6B18D527FF2369005D09B6 /* LampControlViewController.swift */,
+				CFB5E5D927FF2C2E00CBA12F /* Animator.swift */,
 				CF6B18C427FF1F15005D09B6 /* Main.storyboard */,
 				CF6B18CA27FF1F17005D09B6 /* Assets.xcassets */,
 				CF6B18CC27FF1F17005D09B6 /* LaunchScreen.storyboard */,
@@ -141,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF6B18C327FF1F15005D09B6 /* ViewController.swift in Sources */,
+				CFB5E5DA27FF2C2E00CBA12F /* Animator.swift in Sources */,
+				CF6B18C327FF1F15005D09B6 /* MenuViewController.swift in Sources */,
+				CFB5E5DC27FF2F3000CBA12F /* Cell.swift in Sources */,
+				CF6B18D627FF2369005D09B6 /* LampControlViewController.swift in Sources */,
 				CF6B18BF27FF1F15005D09B6 /* AppDelegate.swift in Sources */,
 				CF6B18C927FF1F15005D09B6 /* AnimationsHomework.xcdatamodeld in Sources */,
 				CF6B18C127FF1F15005D09B6 /* SceneDelegate.swift in Sources */,
